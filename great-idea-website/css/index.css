@@ -151,7 +151,9 @@ table {
 html,
 body {
     height: 100%;
-    font-family: "Titillium Web", sans-serif;
+    /* font-family: "Titillium Web", sans-serif; */
+
+    font-family: 'Gayathri', sans-serif;
 }
 
 h1,
@@ -208,6 +210,8 @@ nav #navlogo {
     margin: 20px;
     padding: 20px;
     font-size: 32px;
+
+    background-color: greenyellow;
 }
 
 #links a {
