@@ -3,7 +3,87 @@
    License: none (public domain)
 */
 
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
     margin: 0;
     padding: 0;
     border: 0;
@@ -15,7 +95,17 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 /* HTML5 display-role reset for older browsers */
 
-article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
     display: block;
 }
 
@@ -50,10 +140,11 @@ table {
 /* Set every element's box-sizing to border-box */
 
 * {
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-   /* max-width: 100%;*/
+    /* max-width: 100%;*/
     border: 1px solid grey;
 }
 
@@ -88,62 +179,76 @@ h5 {
 } */
 
 
-section {
-    border: 1px dashed grey;
-    padding: 30%;
-}
+ section {
+    padding: 2% 5%;
+} 
 
-#logo {
-    width:20%;
-    display:inline-block;
+/*
+nav #navlogo {
+    width: 20%;
+    display: inline-block;
 
 }
+*/
 
 #navLogo img {
-     margin-left: 68em;
-     display: inline-block;
-     
+    display: inline-block;
+    width: 20%;  
+
 }
 
 #links {
-
-    display:inline-block;
-    
-}
-
-.circleImg {
     display: inline-block;
+    width: 100%;
+
 }
 
 #home nav {
-    width:100%;
-    background-color:#fde769;
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+    font-size: 32px;
+}
+
+#links a {
+    padding: 0 5%;
 }
 
 
-.innoQuote {
-    border: red dashed 5px;
-    /* width: 50%; */
+#innoQuote {
+    width: 49%;
+    height: 280px;
     display: inline-block;
+  
+
 }
 
-.circleImg {
-    width: 50%;
-    padding: 10% 25%;
+.word {
+    font-size: 95px;
+}
+
+#circleImg {
+    widows: 49%;
     display: inline-block;
-    border: 3px blue dotted;
 
 }
 
 #topSection {
-    display: inline-block; 
-    background-color: blue;
+
     text-align: center;
-    max-width: 100%;
-    
+    /* display: inline-block; 
+    background-color: white;
+    text-align: center;
+    width: 50%;
+    padding-top: 20%*/
+
 
 }
 
+/*#innoQuote, #circleImg {
+    display: inline-block;
+}
+*/
 
 /*.doubleSection div {
     background-color: gray;
@@ -162,10 +267,77 @@ section {
 }
 */
 
-a, span {
-    background-color: orange;
+a {
     display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    color: grey;
 }
+
+div {
+    padding: 20px;
+}
+
+.button {
+    display: block;
+    margin: 0 39%;
+    font-size: 55px;
+}
+
+
+.button:hover {
+    background-color: grey;
+    color: deepskyblue;
+}
+
+#innoQuote h1 {
+    color: black;
+   
+}
+
+#doubleSection #features {
+
+    display: inline-block;
+    width: 49%;
+    font-size: 33px;
+
+}
+
+#doubleSection #about {
+
+    display: inline-block;
+    width: 49%;
+    font-size: 33px;
+    }
+
+.middle-img {
+    width: 100%;
+    display: inline-block;
+
+}
+
+.middle-img img {
+
+    padding: 0;
+    width: 100%;
+}
+
+#container div{
+    display: inline-block;
+    width: 33%;
+    font-size: 33px;
+}
+
+address {
+    padding: 2% 5%;
+    margin-left: 2em;
+} 
+
+footer {
+    padding: 2% 5%;
+    text-align: center;
+    
+} 
 
 
 
